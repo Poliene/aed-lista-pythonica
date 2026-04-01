@@ -5,4 +5,4 @@ def hello_world() -> str: # essa função não recebe nada
     Returns:
         str: "Hello, World!"
     """
-    return "Hello, World!" # ela só precisa devolver a mensagem padrão, então usa o return
+    return "Hello, World!" # ela só precisa devolver a mensagem padrão, então usa o return.
