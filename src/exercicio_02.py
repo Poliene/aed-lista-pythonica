@@ -1,11 +1,5 @@
 def simple_message(message: str) -> str:
-    """
-    Retorna a mesma mensagem recebida.
+    # recebe uma mensagem
+    # retorna exatamente a mesma mensagem sem alterar
 
-    Args:
-        message (str): mensagem de entrada
-
-    Returns:
-        str: a mesma mensagem
-    """
-    pass
+    return message
