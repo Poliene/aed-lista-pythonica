@@ -1,11 +1,4 @@
-def greet_names(names: list[str]) -> list[str]:
-    """
-    Retorna uma lista de saudações para cada nome.
+# src/exercicio_10.py
 
-    Args:
-        names (list[str]): lista de nomes
-
-    Returns:
-        list[str]: lista com mensagens "Hello, <name>!"
-    """
-    pass
+def greet_names(names):
+    return [f"Hello, {name}!" for name in names]

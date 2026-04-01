@@ -1,11 +1,4 @@
-def shrink_guest_list(guests: list[str]) -> list[str]:
-    """
-    Reduz a lista para apenas dois convidados.
+# src/exercicio_13.py
 
-    Args:
-        guests (list[str]): lista original
-
-    Returns:
-        list[str]: lista com apenas dois elementos
-    """
-    pass
+def shrink_guest_list(guests):
+    return guests[:2]

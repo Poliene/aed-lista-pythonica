@@ -1,11 +1,4 @@
-def is_even(n: int) -> bool:
-    """
-    Verifica se um número é par.
+# src/exercicio_09.py
 
-    Args:
-        n (int): número inteiro
-
-    Returns:
-        bool: True se for par, False caso contrário
-    """
-    pass
+def is_even(n):
+    return n % 2 == 0

@@ -1,11 +1,4 @@
-def favorite_number(n: int) -> str:
-    """
-    Retorna uma frase contendo o número favorito.
+# src/exercicio_08.py
 
-    Args:
-        n (int): número favorito
-
-    Returns:
-        str: "Your favorite number is <n>"
-    """
-    pass
+def favorite_number(numero):
+    return f"Your favorite number is {numero}"
